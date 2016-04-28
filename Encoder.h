@@ -5,7 +5,8 @@
 
 /* Simple Encoder class to read from incremental encoders.
  * Uses Gray code specified in the table to incrementally step through cycle.
- * TODO: add interrupt routines that automatically handle encoder pulses with interrupts.
+ * All of the methods are defined as static and are defined in the .cpp file.
+ * If you don't use the methods from the .cpp then they might not update.
  * 
  * Daniel Sun, UCLA RoMeLa April 27, 2016
  */
